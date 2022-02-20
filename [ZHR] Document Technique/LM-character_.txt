@@ -1,0 +1,16 @@
+--[[---------------------------------------------------------------------
+
+-------------------------------------------------------------------------
+
+-------------------------------------------------------------------------
+		\|/ DON'T TOUCH \|/
+---------------------------------------------------------------------]]--
+
+local CharacterTable_'x' = {  		-- Remplacée 'x' par le numéro donné par la commande 'dialogue_lists 0' (Prochain numéro Personnage : 'x' )
+
+"Player", 		-- Nom du personnage.
+"logolar.png", 		-- L'emplacement de 'l'Avatar' du personnage (.png)
+Color( 64, 64, 64 ),    -- La Couleur d'affichage, du nom du personnage
+
+}
+table.insert( FCS_DS_CharacterTable, CharacterTable_'x' ) -- Remplacé 'x' par le numéro donnée précédemment (tout en haut)

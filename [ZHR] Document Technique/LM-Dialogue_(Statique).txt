@@ -1,0 +1,49 @@
+--[[---------------------------------------------------------------------
+
+-------------------------------------------------------------------------
+
+-------------------------------------------------------------------------
+		\|/ DON'T TOUCH \|/
+---------------------------------------------------------------------]]--
+
+
+DialogueTable_'z' = { 		-- Remplacé 'z' par le numéro donné par la commande 'dialogue_lists 0' (Prochain numéro Dialogue : 'z' )
+
+"Statique",	 -- Activé le mods de dialogue Dynamique.
+4, 		 -- Temps en seconde entre chaque dialogue.
+4, 		 -- Le Nombre de Text/Dialogue.
+13,		 -- Temps avant la fermture de la fenetre de Dialogue.
+
+- Character init --
+
+FCS_DS_CharacterTable[x],-- Character n*1 | Numéro du personnage ( Remplacé "x" par =) [ 1 = Joueur | > 1 = Personnage definit dans les fichier "character_" ] )
+FCS_DS_CharacterTable[x],-- Character n*2 | Numéro du personnage ( Remplacé "x" par =) [> 1 = Personnage definit dans les fichier "character_" ] )
+FCS_DS_CharacterTable[x],-- Character n*3 | Numéro du personnage ( Remplacé "x" par =) [> 1 = Personnage definit dans les fichier "character_" ] )
+"",			 -- Character n*4 (Empty)
+"",			 -- Character n*5 (Empty)
+"",			 -- Character n*6 (Empty)
+"",			 -- Character n*7 (Empty)
+
+-- Dialogue --
+
+-- Dialogue N*1 --
+FCS_DS_CharacterTable[x],  -- Numéro du personnage ( Remplacé "x" par =) [ 1 = Joueur | > 1 = Personnage definit dans les fichier "character_" ] )
+"y",  			   -- Le text/Dialogue ( Remplacé "y" par votre phrase | "\n" permet de sauter une ligne. )
+Color( 0, 0, 0 ), 	   -- Couleur du Text ( R, G, B )
+
+-- Dialogue N*2 --
+FCS_DS_CharacterTable[x],  
+"y",  
+Color( 0, 0, 0 ), 
+
+-- Dialogue N*3 --
+FCS_DS_CharacterTable[x],
+"y",
+Color( 0, 0, 0 ),
+
+
+}
+
+-- Ajoute du dialogue dans la DB --
+
+table.insert( FCS_DS_dialogue_lists, DialogueTable_'z' ) -- Remplacé 'z' par le numéro donnée précédemment (tout en haut)

@@ -1,0 +1,40 @@
+Doc Modules : Zone V: 0.1.0 
+
+File name : "zone_X.lua" [Replace X with the number]
+
+local AddZONE = {
+	data = {
+		"Name", -- Zone Name
+		"Description", -- Zone Description
+		true, -- Zone Min LVL on/off
+		2, -- Zone Min LVL
+		true, -- function one time
+		--======================================================--
+		--================ Vector( x, y, z ),  =================--
+		--======================================================--
+		{ 
+			Vector(1039, -1033, -12349),-- Start Zone Vector
+			Vector(-41, 1037, -12000),-- End Zone Vector
+		},
+		false, --Ambulance theme on/off
+		true, --Zone theme on/off
+		false, --Combat theme on/off
+		"", --Ambulance theme "file"
+		1, --Ambulance Time (seg)
+		"bms01.mp3", --Zone theme "file"
+		20, --Zone Time (seg)
+		"", --Combat theme "file"
+		1, --Combat Time (seg)
+	},
+	func = {
+		Zone_enter = function() --function executing at the entrance of the area
+		
+		end,
+
+		Zone_exit = function() --function run at the exit of the zone
+
+		end,
+	},
+}
+
+table.insert( FCS_0033_ZoneList, AddZONE )

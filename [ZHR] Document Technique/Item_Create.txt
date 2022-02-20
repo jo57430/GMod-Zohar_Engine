@@ -1,0 +1,15 @@
+
+ITEM.Base = "item_'x'" -- Replacer 'x' par le nom du fichier le l'item de base
+
+ITEM.Icon = Material(" y ") -- Image dans l'inventaire [ Replacer 'y' par l'emplacement de l'image ]
+ITEM.Name = " z " -- Nom de l'Item [ Replacer 'z' par le nom ]
+ITEM.Width = 2 -- Largeur de l'item (dans l'inventaire)
+ITEM.Height = 1	-- Hauteur de l'item (dans l'inventaire)
+ITEM.Weight = 1 -- Poids de l'Item
+
+function ITEM:Init() -- Function a la création de l'Item
+
+end
+function ITEM:OnRemove() -- Function a la suppressions de l'Item
+
+end
