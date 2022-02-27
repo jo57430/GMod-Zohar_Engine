@@ -1,0 +1,7 @@
+"starbuild"
+{
+	"base"		"sandbox"
+	"title"		"Zohar Engine"
+	"maps"		"^zhr_"
+	"menusystem"	"1"
+}
