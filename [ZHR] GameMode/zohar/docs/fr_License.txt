@@ -1,0 +1,30 @@
+LICENSE D'UTLISATION DU ZOHAR ENGINE
+Cette license est un contrat que vous acceptez lors de l'utilisation ou de la modification du Zohar Engine.
+
+I.TERMES DU CONTRAT:
+-Le produit - Zohar Engine
+-Nous/notre - Studio FCS
+-Vous/votre - Utilisateur/Développeur de Modules
+
+II.CE QUE VOUS ACCEPTEZ
+-Lorsque vous utilisez ou modifiez le produit, nous considérons que vous avez lu et accepté la license.  
+-Le produit a été développé exclusivement par le Studio FCS.
+-Le produit ainsi que tous ses composants venant avec appartient exlusivement au Studio FCS.
+-Le moteur "Source" et le jeu "Garry's Mod" requis pour faire fonctionner le produit sont la propriété respective de Valve et de Facepunch Studio.
+-Vous pouvez utiliser le produit pour vos projets personnels: Modes de jeu, Serveurs, etc...
+-Vous ne pouvez pas utiliser le produit pour vos projets commerciaux.
+-Vous n'avez pas l'autorisation de modifier, partager ou vendre les fichiers et composants venant dans et avec le produit.
+-Vous pouvez ajouter vos propres modules dans le répertoire "gamemode/modules/" de ce produit, mais vous n'avez pas le droit de modifier, partager, ou vendre les modules existants.
+
+III.PROPRIÉTÉ
+-Ce produit et ses composants ont été créé en France par une sociétée française, il est sa propriété par le droit d'auteur, inclut dans les droits propriété intellectuelle.
+ Pour information, le droit d'auteur, qui porte sur les oeuvres de l'esprit, confère à l'auteur un droit de propriété exclusif SUR SA CRÉATION, aussi bien en matière de droit moraux que patrimoniaux.
+ En France, le droit de propriété intellectuelle ne demmande pas un dépot légal (Copyrights, etc...), tous les droits d'une création, logicielle dans notre cas nous reviens de façon exclusive.
+
+-Les modules que vous créez sont votre propriété en fonctions des lois régies dans le pays dans lequel vous résidez.
+
+IV.MENTIONS LÉGALES:
+Ce contrat est régit par le Droit Français, néanmoin votre potentielle différente nationalité ne vous protège pas de ce qui va suivre:
+Tous dépassements ou non respect de cette license sera traitée au titre du délit de contrefaçon, prévu dans les articles L. 335-3, L. 335-4 et L. 122-6 du Code de la proprieté intellectuelle.
+L'article L. 335-2 du Code de la propriété intellectuelle sanctionne le délit de contrefaçon d'une peine d’emprisonnement d'une durée pouvant aller jusqu’à trois ans ainsi que d'une amende 
+pouvant atteindre 300 000 euros. Si le délit est commis en bande organisée, les peines sont portées à cinq ans d’emprisonnement et à 500 000 euros d’amende.
